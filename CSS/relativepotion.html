@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relate position</title>
+</head>
+
+
+<style>
+    
+
+    #pos1{
+        border: 2px solid black;
+        margin: 10px;
+        padding: 20px;
+        background-color: lightgreen;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        position: static;
+        top: 20px;
+        left: 20px;
+    }
+    
+
+        #pos2{
+        border: 2px solid black;
+        bottom: 10px;
+        left: 50px;
+        position: relative;
+        margin: 10px;
+
+        }
+
+        #pos3{
+        border: 2px solid black;
+        margin: 10px;
+        position: absolute;
+        bottom: 100px;
+        left: 300px;
+        }
+
+        #pos4{
+        border: 2px solid rgb(211, 9, 9);
+            
+        margin: 10px;
+        position: fixed;
+        bottom: 540px;
+        top: 910px;
+            
+        }
+    
+</style>
+<body>
+    
+
+    <span id=pos1> static</span>
+    <span id=pos2> relative</span>
+    <span id=pos3> absolute</span>
+    <span id=pos4> fixed</span>
+</body>
+</html>
